@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(230, 216, 195);
+}
+
+img {
+    max-width: 100%;
+}
+body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+    
+form {
+    width: 295px;
+    }
+input, textarea, button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+    }
+.name h1{
+    margin : 10px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color:beige;
+}
+.para p{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px; 
+    margin: 20px;
+    padding: 10px;
+    display: block; 
+}
