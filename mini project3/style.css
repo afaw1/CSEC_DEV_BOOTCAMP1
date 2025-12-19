@@ -1,0 +1,44 @@
+*{
+    background-color: lightgrey;
+}
+.head h1{
+    background-color: azure;
+    text-align: center;
+    font-size: largeer;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    margin-top: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    background-color: beige;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.b{
+    background-color: azure;
+    padding: 20px;
+}
+@media (max-width: 768){
+    .container{
+        width: 100%; 
+        max-width: 500px; 
+        padding: 15px;
+        font-size: 18px;
+    }
+    .hear h1{font-size:24;}
+    #btn {
+        width: 100%; 
+        max-width: 300px; 
+        padding: 15px;
+        font-size: 18px;
+    }
+}
