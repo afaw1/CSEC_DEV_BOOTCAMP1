@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full page background */
+body {
+    background: url(images/todolist4.jpg) no-repeat center center fixed;
+    background-color: aliceblue;
+    background-size: cover; /* Fills screen, might crop edges */
+    min-height: 100vh;
+    padding: 20px;
+}
+/* White container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+ #todoInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+#addBtn {
+    padding: 10px 20px;
+    background:#2196F3;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.complete-btn {
+    background: #2196F3;
+    color: white;
+    padding: 5px 10px;
+}
+.delete-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+}
+#emptymsg{
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#clearallbtn {
+    display: block;
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px; 
+}
+#completedtodos, #totaltodos{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.complete-btn, .delete-btn {
+    padding: 8px 15px;
+    border: none;
+    font-size: 14px;
+    min-width: 80px;
+}
+
+.complete-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.delete-btn {
+    background: #f44336;
+    color: white;
+}
+#totaltodos, #completedtodos {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 600px;
+}
+.todo-item {
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-height: 60px;
+}
+
+.todo-text {
+    text-align: left;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.todo-text.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+.todo-actions {
+    display: flex;
+    gap: 10px;
+    /* flex-shrink: 0; */
+}
